@@ -1,0 +1,26 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.7.6, pytest-5.3.5, py-1.8.1, pluggy-0.13.1 -- /Applications/anaconda3/bin/python
+cachedir: .pytest_cache
+hypothesis profile 'default' -> database=DirectoryBasedExampleDatabase('/Users/macbookpro/codenation/data-science-3/.hypothesis/examples')
+rootdir: /Users/macbookpro/codenation/data-science-3
+plugins: hypothesis-5.5.4, arraydiff-0.3, astropy-header-0.1.2, doctestplus-0.5.0, openfiles-0.4.0, remotedata-0.3.2
+collecting ... collected 4 items
+
+test_submit.py::test_q1 PASSED                                           [ 25%]
+test_submit.py::test_q2 PASSED                                           [ 50%]
+test_submit.py::test_q3 PASSED                                           [ 75%]
+test_submit.py::test_q4 PASSED                                           [100%]
+
+=============================== warnings summary ===============================
+/Applications/anaconda3/lib/python3.7/site-packages/_pytest/junitxml.py:436
+  /Applications/anaconda3/lib/python3.7/site-packages/_pytest/junitxml.py:436: PytestDeprecationWarning: The 'junit_family' default value will change to 'xunit2' in pytest 6.0.
+  Add 'junit_family=xunit1' to your pytest.ini file to keep the current format in future versions of pytest and silence this warning.
+    _issue_warning_captured(deprecated.JUNIT_XML_DEFAULT_FAMILY, config.hook, 2)
+
+/Applications/anaconda3/lib/python3.7/site-packages/patsy/constraint.py:13
+  /Applications/anaconda3/lib/python3.7/site-packages/patsy/constraint.py:13: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3,and in 3.9 it will stop working
+    from collections import Mapping
+
+-- Docs: https://docs.pytest.org/en/latest/warnings.html
+-- generated xml file: /Users/macbookpro/codenation/data-science-3/output.xml --
+======================== 4 passed, 2 warnings in 7.56s =========================
